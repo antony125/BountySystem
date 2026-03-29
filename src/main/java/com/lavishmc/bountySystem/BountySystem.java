@@ -15,6 +15,10 @@ public final class BountySystem extends JavaPlugin {
         return economy;
     }
 
+    public BountyManager getBountyManager() {
+        return bountyManager;
+    }
+
     @Override
     public void onEnable() {
         // Resolve Vault economy (soft dependency — null if unavailable).
