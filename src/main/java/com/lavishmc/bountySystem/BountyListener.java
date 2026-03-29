@@ -33,7 +33,7 @@ public class BountyListener implements Listener {
         this.bountyManager = bountyManager;
     }
 
-    @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
+    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onPlayerInteract(PlayerInteractEvent event) {
         // Only process main-hand right-clicks.
         if (event.getHand() != EquipmentSlot.HAND) return;
