@@ -5,7 +5,6 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -77,7 +76,7 @@ public class BountyManager {
      */
     public List<Map.Entry<UUID, Long>> getAllBounties() {
         List<Map.Entry<UUID, Long>> entries = new ArrayList<>(bounties.entrySet());
-        entries.sort(Comparator.comparingLong(Map.Entry<UUID, Long>::getValue).reversed());
+        entries.sort((a, b) -> Long.compare(b.getValue(), a.getValue()));
         return entries;
     }
 }

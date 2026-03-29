@@ -1,5 +1,6 @@
 package com.lavishmc.bountySystem;
 
+import com.lavishmc.bountySystem.BountyManager;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import net.milkbowl.vault.economy.Economy;
