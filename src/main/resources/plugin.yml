@@ -1,0 +1,9 @@
+name: BountySystem
+main: com.lavishmc.bountySystem.BountySystem
+version: '${version}'
+api-version: '1.21'
+softdepend: [Vault, HeadHunter]
+commands:
+  bounty:
+    description: Open the bounty menu or place a bounty
+    usage: /bounty [place <player> <amount>]
