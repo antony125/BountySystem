@@ -1,4 +1,4 @@
-package com.lavishmc.bountySystem;
+package com.lavishmc.bountysystem;
 
 import org.bukkit.configuration.file.YamlConfiguration;
 

@@ -1,4 +1,4 @@
-package com.lavishmc.bountySystem;
+package com.lavishmc.bountysystem;
 
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.plugin.RegisteredServiceProvider;

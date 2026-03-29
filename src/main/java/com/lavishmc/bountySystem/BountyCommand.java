@@ -1,4 +1,4 @@
-package com.lavishmc.bountySystem;
+package com.lavishmc.bountysystem;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;

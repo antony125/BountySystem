@@ -1,5 +1,5 @@
 name: BountySystem
-main: com.lavishmc.bountySystem.BountySystem
+main: com.lavishmc.bountysystem.BountySystem
 version: '${version}'
 api-version: '1.21'
 softdepend: [Vault, HeadHunter]
